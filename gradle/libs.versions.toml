@@ -1,0 +1,5 @@
+[versions]
+await = "2.0.3"
+
+[libraries]
+await = { module = "io.ktor:ktor-server-call-logging", version.ref = "await" }
